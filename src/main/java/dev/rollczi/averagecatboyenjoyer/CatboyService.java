@@ -1,6 +1,7 @@
 package dev.rollczi.averagecatboyenjoyer;
 
 import com.google.gson.Gson;
+import dev.rollczi.averagecatboyenjoyer.image.ImagesResult;
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;
@@ -52,8 +53,8 @@ class CatboyService {
                 .GET()
                 .build(), HttpResponse.BodyHandlers.ofString());
 
-            List<String> list = gson.fromJson(serpapiKey.body(), ApiResult.class).images_results().stream()
-                .map(ImagesResult::original)
+            List<String> list = gson.fromJson(serpapiKey.body(), ImagesResult.class).images_results().stream()
+                .map(image -> image.original())
                 .toList();
 
             this.addImages(list);
