@@ -1,6 +1,8 @@
 # Average Catboy Enjoyer
 A simple bot that sends a random catboy image!
 
+![image](https://github.com/Rollczi/average-catboy-enjoyer/assets/49173834/786ca414-fb3e-4d52-9026-9430ced45249)
+
 ## Commands
 - `/catboy`: Sends a random catboy image.
 
