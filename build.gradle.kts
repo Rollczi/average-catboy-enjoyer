@@ -17,7 +17,7 @@ dependencies {
     implementation("com.google.code.gson:gson:2.10.1")
     implementation("net.dzikoysk:cdn:1.14.5")
 
-    testImplementation(platform("org.junit:junit-bom:5.9.1"))
+    testImplementation(platform("org.junit:junit-bom:5.11.3"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
