@@ -15,7 +15,7 @@ dependencies {
     implementation("net.dv8tion:JDA:5.2.1")
     implementation("com.squareup.okhttp:okhttp:2.7.5")
     implementation("com.google.code.gson:gson:2.11.0")
-    implementation("net.dzikoysk:cdn:1.14.5")
+    implementation("net.dzikoysk:cdn:1.14.9")
 
     testImplementation(platform("org.junit:junit-bom:5.11.3"))
     testImplementation("org.junit.jupiter:junit-jupiter")
