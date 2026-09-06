@@ -12,7 +12,7 @@ repositories {
 
 dependencies {
     implementation("dev.rollczi:litecommands-jda:3.9.0")
-    implementation("net.dv8tion:JDA:5.2.1")
+    implementation("net.dv8tion:JDA:6.6.0")
     implementation("com.squareup.okhttp:okhttp:2.7.5")
     implementation("com.google.code.gson:gson:2.11.0")
     implementation("net.dzikoysk:cdn:1.14.5")
